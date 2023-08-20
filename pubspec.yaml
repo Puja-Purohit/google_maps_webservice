@@ -1,10 +1,10 @@
-name: google_maps_webservice
-description: Google Maps Web Services [API](https://developers.google.com/maps/web-services)
-version: 0.0.20-nullsafety.5
-homepage: https://github.com/lejard-h/google_maps_webservice
+name: pp_maps_webservice
+description: 
+version: 0.0.1
+homepage: https://github.com/Puja-Purohit/pp_maps_webservice
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   http: ^1.1.0
@@ -13,7 +13,7 @@ dependencies:
 
 dev_dependencies:
   test: ^1.16.0
-  pedantic: ^1.10.0
-  build_runner: ^1.11.0
-  json_serializable: ^4.0.0
+  lints: ^2.1.1
+  build_runner: ^2.4.6
+  json_serializable: ^6.7.1
   coverage: ^1.0.0
